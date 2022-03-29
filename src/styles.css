@@ -1,0 +1,61 @@
+body {
+    margin: 0%;
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+}
+
+.submitBtn {
+    width: 40px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+form {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.countryDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* This is our style for the invalid fields */
+input:invalid{
+    border-color: #900;
+    background-color: #FDD;
+}
+
+input:focus:invalid {
+    outline: none;
+}
+  
+  /* This is the style of our error messages */
+.error {
+    width  : 100%;
+    padding: 0;
+
+    font-size: 80%;
+    color: red;
+    border-radius: 0 0 5px 5px;
+
+    box-sizing: border-box;
+}
+  
+.error.active {
+    padding: 0.3em;
+}
+
+span {
+    margin-top: 5px;
+}
