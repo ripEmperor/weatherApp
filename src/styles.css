@@ -13,13 +13,20 @@ label {
     margin-top: 10px;
 }
 
-form {
-    width: 100vw;
-    height: 100vh;
+.formCont {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .countryDiv {
@@ -28,6 +35,10 @@ form {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.dataDiv {
+    margin-bottom: 10px;
 }
 
 /* This is our style for the invalid fields */
